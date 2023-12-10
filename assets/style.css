@@ -1,0 +1,77 @@
+html,
+body{
+   
+    padding: 0;
+    margin: 0;
+    background-color:#0d6efd ;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sfondo-main{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.colore-banner{
+    background-color: white;
+}
+.bianco{
+    color: white;
+}
+
+
+
+.colore-label{
+    color: white;
+}
+
+.sfondo-contatti{
+
+    padding: 0;
+    margin:0;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.risposta{
+    border: 2px solid #ffffff;
+    padding: 3px;
+    
+}
+
+@media only screen and (max-width: 430px) 
+{
+    /* Centra il video */
+    #video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+    .button {
+        width: 100%;
+    }
+    
+    .sotto{
+        margin-top: 5vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+                              
